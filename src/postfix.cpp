@@ -8,7 +8,7 @@ std::string infix2prefix(std::string s1) {
   std::string s2;
   for (int i = 0; i < s1.length(); i++) {
     if (s1[i] >= '0' && s1[i] <= '9') {
-				  while (s1[i] >= '0' && s1[i] <= '9' || s1[i] == '.') {
+      while (s1[i] >= '0' && s1[i] <= '9' || s1[i] == '.') {
         s2 += s1[i];
         i++;
       }
