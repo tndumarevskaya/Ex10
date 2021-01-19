@@ -3,7 +3,7 @@
 #include "MyStack.h"
 #include "postfix.h"
 
-std::string infix2prefix(std::string s1) {
+std::string infix2postfix(std::string s1) {
   MyStack<char> st(100);
   std::string s2;
   for (int i = 0; i < s1.length(); i++) {
