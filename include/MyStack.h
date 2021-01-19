@@ -2,8 +2,6 @@
 #ifndef INCLUDE_MYSTACK_H_
 #define INCLUDE_MYSTACK_H_
 
-#include <iostream>
-
 template <typename T>
 class MyStack {
  private:
